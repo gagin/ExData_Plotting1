@@ -31,7 +31,7 @@ lines(ts$timestamp,ts$Sub_metering_3,col=colorblind[3])
 legend("topright", legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), lty=c(1,1,1), col=colorblind, bty="n")
 
 # Now top right
-plot(ts$timestamp,ts$Voltage,xlab="datetime",type="n")
+plot(ts$timestamp,ts$Voltage,xlab="datetime",ylab="Voltage",type="n")
 lines(ts$timestamp,ts$Voltage)
 
 # Now bottom right
